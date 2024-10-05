@@ -24,12 +24,14 @@ public class MovementScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Move();
+    }
+    void Update()
+    {
         GetInputDash();
     }
-
     public static Vector2 GetInputDirection()
     {
         float x;

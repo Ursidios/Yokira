@@ -988,9 +988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68abd18a7a7d7c64da9cccf10099d57f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 5
-  sprintSpeed: 10
-  dashForce: 30
+  walkSpeed: 30
+  sprintSpeed: 90
+  dashForce: 60
   deshDelay: 1
 --- !u!114 &2021384367
 MonoBehaviour:
